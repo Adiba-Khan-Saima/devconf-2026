@@ -515,3 +515,63 @@ body{
     bottom:-15px;
     right:20px;
 }
+/* =========================
+   FOOTER
+========================= */
+
+.footer{
+    background:#ffffff;
+    padding:50px 0 30px;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+}
+
+.footer-logo{
+    height:42px;
+    width:auto;
+}
+
+.footer-social{
+    display:flex;
+    gap:14px;
+}
+
+.footer-social a{
+    width:42px;
+    height:42px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:1px solid #e5e7eb;
+    border-radius:50%;
+
+    text-decoration:none;
+    color:#0f172a;
+
+    transition:0.3s;
+}
+
+.footer-social a:hover{
+    background:#3461ff;
+    color:#ffffff;
+    border-color:#3461ff;
+}
+
+.footer hr{
+    border:none;
+    border-top:1px solid #e5e7eb;
+    margin-bottom:20px;
+}
+
+.footer-text{
+    text-align:center;
+    color:#64748b;
+    font-size:14px;
+}
