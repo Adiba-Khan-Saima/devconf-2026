@@ -201,3 +201,157 @@ nav{
     font-size:12px;
     line-height:1.5;
 }
+/*=========================
+    GOOGLE FONT
+==========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:#ffffff;
+}
+/* =========================
+   PRICING SECTION
+========================= */
+
+.pricing{
+    padding:100px 0;
+    background:#ffffff;
+}
+
+.pricing-title{
+    text-align:center;
+    font-size:42px;
+    font-weight:800;
+    color:#0f172a;
+    margin-bottom:8px;
+}
+
+.pricing-subtitle{
+    text-align:center;
+    color:#6b7280;
+    font-size:13px;
+    margin-bottom:50px;
+}
+
+.pricing-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.price-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:12px;
+    padding:22px;
+}
+
+.price-card h5{
+    color:#9ca3af;
+    font-size:11px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:10px;
+}
+
+.price-card h3{
+    font-size:34px;
+    font-weight:800;
+    color:#0f172a;
+    margin-bottom:4px;
+}
+
+.price-text{
+    color:#9ca3af;
+    font-size:12px;
+    margin-bottom:18px;
+}
+
+.price-card hr{
+    border:none;
+    border-top:1px solid #e5e7eb;
+    margin-bottom:20px;
+}
+
+.price-card ul{
+    list-style:none;
+    padding:0;
+    margin-bottom:25px;
+}
+
+.price-card ul li{
+    font-size:13px;
+    color:#4b5563;
+    margin-bottom:12px;
+    line-height:1.5;
+}
+
+.price-card ul li::before{
+    content:"•";
+    color:#3461ff;
+    margin-right:8px;
+}
+
+.price-btn{
+    display:block;
+    text-align:center;
+
+    padding:12px;
+
+    border:1px solid #3461ff;
+    border-radius:8px;
+
+    color:#3461ff;
+    background:#ffffff;
+
+    font-size:14px;
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:0.3s;
+}
+
+.price-btn:hover{
+    background:#3461ff;
+    color:white;
+}
+
+.featured{
+    background:#0f172a;
+    transform:translateY(-8px);
+}
+
+.featured h3{
+    color:white;
+}
+
+.featured .price-text{
+    color:#cbd5e1;
+}
+
+.featured ul li{
+    color:#e2e8f0;
+}
+
+.featured hr{
+    border-top:1px solid #334155;
+}
+
+.pro-btn{
+    background:#3461ff;
+    color:white;
+    border:none;
+}
+
+.pro-btn:hover{
+    background:#2148d8;
+}
