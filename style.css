@@ -141,9 +141,6 @@ nav{
     height:40px;
 }
 
-/* =========================
-   SPEAKERS SECTION
-========================= */
 
 .speakers{
     padding:80px 0 100px;
@@ -201,9 +198,6 @@ nav{
     font-size:12px;
     line-height:1.5;
 }
-/*=========================
-    GOOGLE FONT
-==========================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
@@ -217,9 +211,6 @@ nav{
 body{
     background:#ffffff;
 }
-/* =========================
-   PRICING SECTION
-========================= */
 
 .pricing{
     padding:100px 0;
@@ -355,9 +346,6 @@ body{
 .pro-btn:hover{
     background:#2148d8;
 }
-/* =========================
-   INNOVATION SPRINT
-========================= */
 
 .innovation{
     padding:100px 0;
@@ -515,24 +503,21 @@ body{
     bottom:-15px;
     right:20px;
 }
-/* =========================
-   FOOTER
-========================= */
 
 .footer{
-    background:#ffffff;
-    padding:50px 0 30px;
+    background:#080f1a;
+    padding:60px 0 25px;
 }
 
 .footer-top{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    margin-bottom:25px;
+    margin-bottom:35px;
 }
 
 .footer-logo{
-    height:42px;
+    height:45px;
     width:auto;
 }
 
@@ -542,36 +527,37 @@ body{
 }
 
 .footer-social a{
-    width:42px;
-    height:42px;
+    width:46px;
+    height:46px;
 
     display:flex;
     align-items:center;
     justify-content:center;
 
-    border:1px solid #e5e7eb;
+    border:1px solid rgba(255,255,255,0.12);
     border-radius:50%;
 
+    color:#d1d5db;
     text-decoration:none;
-    color:#0f172a;
+    font-size:18px;
 
-    transition:0.3s;
+    transition:0.3s ease;
 }
 
 .footer-social a:hover{
     background:#3461ff;
-    color:#ffffff;
     border-color:#3461ff;
+    color:white;
+    transform:translateY(-3px);
 }
 
 .footer hr{
     border:none;
-    border-top:1px solid #e5e7eb;
-    margin-bottom:20px;
+    border-top:1px solid rgba(255,255,255,0.12);
+    margin-bottom:25px;
 }
 
 .footer-text{
-    text-align:center;
-    color:#64748b;
-    font-size:14px;
+    color:#94a3b8;
+    font-size:15px;
 }
